@@ -1,0 +1,60 @@
+form{
+    background-color: #213b50;
+    padding: 20px;
+    width: 600px;
+}
+
+form label{
+    display:block;
+    margin-bottom: 5px;
+}
+
+form label[for*="male"]
+{
+    display:inline;
+}
+
+form input[id="agreement"]
+{
+    display:inline;
+}
+
+form label[for="agreement"]
+{
+    display:inline;
+}
+
+label{
+    color: white;
+}
+
+form  p{
+    color:white;
+}
+
+form  input, form select, form textarea{
+    background-color: #2b4a64;
+    border-color: #2b4a64;
+    outline:none;
+}
+
+
+
+form input[type="submit"]{
+    color: white;
+    background-color: green;
+}
+
+form select{
+    color: white;
+}
+
+form textarea:focus {
+    background-color: #4e708c;
+    border-color: #ffffff;
+}
+
+form input:focus {
+    background-color: #4e708c;
+    border-color: #ffffff;
+}
