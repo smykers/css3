@@ -1,16 +1,7 @@
-#strawberry {
-    float:left
-}
-
-#strawberry2 {
-    float:right;
-}
-
-#strawberry {
-    float: none;
-}
-
-p:last-child{
+#background-img{
     background-color: beige;
-    clear: both;
+    background-image: url('../img/truskawka.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
 }
