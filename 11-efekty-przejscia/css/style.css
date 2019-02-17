@@ -1,0 +1,63 @@
+#box1 {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: red;
+}
+#box2 {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color:orange;
+}
+#box3 {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: green;
+}
+
+#box1 {
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+}
+
+#box1:hover{
+    width: 300px;
+}
+
+
+#box2 {
+    transition-property: height;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+}
+
+#box2:hover{
+    height: 300px;
+}
+
+#box3 {
+    transition-property: width, height;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+}
+
+#box3:hover{
+    height: 300px;
+    width: 300px;
+}
+
+
+/*
+#colors{
+    transition: background-color 3s linear 1s;
+    background-color: yellow;
+}
+
+#colors:hover{
+    background-color: deeppink;
+    cursor: not-allowed;
+}
+*/
