@@ -1,9 +1,28 @@
-#pierwszy::before{
-    content: "Text przed pierwszym paragrafem";
-    color: orange;
+#name:hover{
+    background-color: aquamarine
 }
 
-#drugi::after{
-    content: "po drugim paragrafie";
-    color: "navy";
+#name:focus{
+    background-color: lightblue;
+}
+
+.customer:first-child{
+    color: lime;
+}
+
+.customer:last-child{
+    color: red;
+}
+
+.customer:nth-child(3){
+    background-color: lightpink;
+}
+
+.customer:nth-child(3n+2){
+    background-color: lightgreen;
+}
+
+.cutomer:nth-last-child(2n+10){
+    
+    background-color: lightskyblue;
 }
