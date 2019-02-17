@@ -1,0 +1,31 @@
+* {
+    color: lightgray;
+}
+
+p {
+    color: green;
+}
+
+#kasia {
+    color: red;
+}
+
+ul span {
+    color: sandybrown;
+}
+
+.lorak{
+    color: blue;
+}
+
+li > a {
+    color: sandybrown;
+}
+
+li#pierwszy ~ li > a {
+    color: deeppink
+}
+
+li#drugi + li > a {
+    color: yellow;
+}
